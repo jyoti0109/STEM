@@ -1,0 +1,161 @@
+#textletter{
+    display: none;
+    transform: all 2s ease;
+}
+.left {
+    position: fixed;
+    bottom:20px;
+    
+    left: 32.4%;
+    width: 0px;
+    height: 0px;
+    border-bottom: 25vh solid transparent;
+    border-top: 25vh solid transparent;
+    border-left: 35vh solid rgb(255, 255, 255);
+    transition: all 1s ease;
+
+}
+
+
+.right {
+    position: fixed;
+    bottom:20px;
+    
+    right: 32.8%;
+    width: 0px;
+    height: 0px;
+    border-bottom: 25vh solid transparent;
+    border-top: 25vh solid transparent;
+    border-right: 35vh solid rgb(255, 255, 255);
+    pointer-events: none;
+
+}
+
+
+.bottom {
+    position: fixed;
+   ;
+    left:32.6%;
+    text-align: center;
+    bottom: 20px;
+
+    height: 0;
+    border-bottom:25vh solid rgb(255, 255, 255);
+ border-left: 35vh solid transparent;
+ border-right: 35vh solid transparent;
+   
+}
+
+.top {
+    display: block;
+    position: fixed;
+    top:318.989px;
+    ;
+     left:32.6%;
+     text-align: center;
+     bottom: 27.9vh;
+    
+     height: 0;
+     border-top:25vh solid rgb(255, 255, 255);
+  border-left: 35vh solid transparent;
+  border-right: 35vh solid transparent;
+  transition: all 1s ease;
+  animation: openup 10s linear;
+  perspective: 20px;
+  
+  
+
+}
+
+
+
+.unfold {
+   display: none;
+    position: fixed;
+    width:65vh;
+    height:50vh;
+    background-image: url("images123.jpg");
+    background-size: cover;
+    left:33.8%;
+    bottom: 27.8vh;
+    transition: all 1s ease;
+   animation: mymove 0.5s linear;
+    color: rgb(0, 0, 0);
+}
+
+
+.text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 2vh;
+  
+    width:63vh;
+    height:30vh;
+   
+   
+   
+    z-index: -1;
+    color: rgb(0, 0, 0);
+   
+    text-align: center;
+    
+
+}
+
+.float {
+    position: absolute;
+    left:60px;
+    top:120px;
+    color: gray;
+    font-size: 18px;
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+
+.input{
+    width: 200px; position: absolute; left:50px; height: 35px; border: 3px solid rgb(10, 10, 10); border-radius: 2px; padding-left: 10px;
+    top:110px;
+    outline: none;
+}
+
+.input:focus ~ .float,
+input:not(:focus):valid ~ .float {
+    font-size: 12px;
+    top:95px;
+    color: rgb(0, 0, 0);
+    left:55px;
+    outline: none;
+}
+
+
+
+.sub {
+
+    width: 70px; position: absolute; left:75px;  
+    top:120px;
+    left:300px;
+    outline: none;
+    background-color: rgb(72, 189, 78);
+    color: aliceblue;
+}
+
+.backletter {
+    background-color: black;
+    position: fixed;
+    bottom:20px;
+    
+    left: 32.5%;
+    width: 70.5vh;
+    height: 50vh;
+   
+
+}
+
+@keyframes mymove {
+    from {bottom:20px;}
+    to {bottom:27.8vh;}
+    
+}
+

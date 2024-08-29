@@ -1,0 +1,212 @@
+.header {
+    display: inherit;
+    position: fixed;
+    left:60%;
+    right:0px;
+    
+    margin-top: -5px;
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+  
+    
+
+
+}
+.main1 {
+    display: inherit;
+    position: fixed;
+    left:0px;
+    right:0px;
+    top:0px;
+    height: 45px;
+
+}
+
+
+#menu {
+    display:grid;
+    position:fixed;
+    top: 2%;
+    left: 75%;
+    text-align: start;
+   font-size: 18px;
+   justify-content: center;
+   background-color: black;
+   height: 70px;
+   
+   
+
+}
+
+#front {
+    display:grid;
+    grid-template-columns: 80px 100px 80px 80px 80px 100px 80px 80px;
+   
+    column-gap: -50px;
+    position:fixed;
+    top:0px;
+    bottom: 0;
+    left: 65%;
+    background-color: black;
+    height: 70px;
+   margin: 0;
+   text-align: center;
+   
+    
+   
+}
+
+#back{
+    display: flex;
+    position:fixed;
+    top:3.2%;
+    right:10px;
+    justify-content: baseline;
+    
+}
+
+#mail{
+    height: 40px;
+    position: fixed;
+    right:10.5%;
+    top:1.5%;
+    border-radius: 100px;
+    padding: 4px;
+    background-color: black;
+}
+
+#mail:hover {
+   
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+#home{
+    height:70px;
+   display: flex;
+   flex-direction: column;
+
+   text-align:center;
+   justify-content: center;
+    color:rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-color: rgb(0, 0, 0);
+    
+   
+    
+}
+
+
+#home:hover {
+    background-color: rgb(42, 40, 37);
+    cursor: pointer;
+}
+
+
+#nav{
+    height:70px;
+   display: flex;
+   flex-direction: column;
+
+   text-align:center;
+   justify-content: center;
+    color:rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-color: rgb(0, 0, 0);
+    
+   
+   
+}
+
+#nav:hover {
+    background-color: rgb(42, 40, 37);
+        cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+#nirf{
+    height:70px;
+    display: flex;
+    flex-direction: column;
+ 
+    text-align:center;
+    justify-content: center;
+     color:rgb(255, 255, 255);
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+     background-color: rgb(0, 0, 0);
+     padding-left: 5px;
+     padding-right: 5px;
+     
+}
+
+#nirf:hover{
+    background-color: rgb(42, 40, 37);
+        cursor: pointer;
+}
+
+
+#contact{
+    height:70px;
+   display: flex;
+   flex-direction: column;
+
+   text-align:center;
+   justify-content: center;
+    color:rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+
+#contact:hover{
+    background-color: rgb(42, 40, 37);
+        cursor: pointer;
+}
+
+
+
+
+#log {
+    display: block;
+    position: fixed;
+    right:1.2%;
+    height:26px;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 2px;
+    border-color: blue;
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.4s;
+}
+
+
+#log:hover {
+
+    background-color: blue;
+    border-radius: 2px;
+    border-color: blue;
+    color:white;
+
+}

@@ -1,0 +1,224 @@
+#bar{
+    display:none;
+    width: 190px;
+}
+
+#loginfo
+{
+    display:none;
+    font-size: 20px;
+    color: black;
+}
+
+#signinfo
+{
+    display: none;
+    
+    justify-content: center;
+
+    color: black;
+    
+}
+
+#loginfo {
+    display: none;
+   
+    justify-content: center;
+    
+}
+
+
+#logpage {
+    display: none;
+    background-color: antiquewhite;
+    position: fixed;
+    height: 150px;
+    top:30%;
+    left:30%;
+    right:50%;
+    width: 500px;
+    justify-content: baseline;
+    font-size: 26px;
+    border: none;
+    border-radius:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+    padding-bottom: 40px;
+   
+    
+}
+
+.logbar {
+    position: relative;
+    right:0px;
+    width:190px;
+    background-color: pink;
+
+}
+.signbar {
+    position: relative;
+    right:0px;
+    width:190px;
+    background-color: rgb(203, 203, 203);
+}
+
+.login {
+
+    position: relative;
+    right:0px;
+    
+    width:190px;
+    border-style: none;
+    border-top-right-radius: 20px ;
+    background-color: rgb(203, 203, 203);
+    height: 50px;
+   
+}
+
+
+.name {
+    
+    position: relative;
+    left:0%;
+    height: 30px;
+    font-size:16px;
+    padding-left:9px;
+   border: 1px solid black;
+
+}
+
+.submit {
+    color:white;
+    font-size: 15px;
+    
+    height:30px;
+    background-color: rgb(81, 81, 194);
+    border-style: solid;
+    border-radius:1px;
+    border-color:  rgb(81, 81, 194);
+}
+
+.reset {
+    
+    font-size: 15px;
+    
+    height:30px;
+   
+}
+
+.lname {
+
+    position: relative;
+    left:3%;
+    height: 30px;
+    font-size:16px;
+    padding-left:9px;
+border: 1px solid rgb(0, 0, 0);
+  
+}
+
+
+
+
+
+
+
+.fname {
+
+    position: relative;
+    left:3%;
+    height: 30px;
+    font-size:16px;
+    padding-left:9px;
+    border: 1px solid rgb(0, 0, 0);
+   
+    
+}
+
+.passinput{
+    position: absolute;
+    right:35%;
+    font-size: 20px;
+    top:51.5%;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+
+.userinput{
+    position: absolute;
+    right:34%;
+    font-size: 20px;
+    top:22%;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+
+.section{
+    width: 200px;
+    border-right: solid;
+    height:340px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content {
+    padding:30px;
+   font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.or 
+{
+    color:blue;
+    cursor: pointer;
+}
+
+.or:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+
+#cross{
+    position:absolute;
+    height:18px;
+    top:8px;
+    left:512px;
+}
+
+
+
+
+#profile {
+    display: none;
+   padding: 3px;
+    position: fixed;
+    right:3%;
+    height:21px;
+    font-size: 14px;
+    
+    border-radius: 27px;
+ background-color: rgb(14, 13, 13); 
+  
+ 
+}
+
+#profile:hover {
+
+    
+    background-color: blue;
+}

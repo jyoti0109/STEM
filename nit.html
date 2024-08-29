@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" viewport="device-width">
+    <title>
+        NIT Kurukshetra
+    </title>
+    <link rel="stylesheet" href="nit.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="log.css">
+    <link rel="stylesheet" href="traits.css">
+    <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript" src="log.js"></script>
+    <script type="text/javascript" src="letter.js"></script>
+    <script type="text/javascript" src="traits.js"></script>
+    <link rel="stylesheet" href="test.css"> 
+</head>
+<body>
+    
+        <main>
+            <section id="firstpage"  >
+                <span style="position: absolute; right:46vh; top:27vh; color:white; font-size: 10vh;">
+                <span style="color: rgb(255, 255, 255);">Au</span>thentic <span style="position: absolute;top:15vh;color: rgb(255, 0, 0);">&</span>
+                </span>
+
+                <span style="position: absolute; right:2vh; top:58vh; color:white; font-size: 10vh;">
+                    <span style="color: rgb(255, 255, 255);">Un</span>biased
+                    </span>
+
+
+                    
+
+            </section>
+
+            <script>
+                window.onscroll = function() {scrollFunction()};
+
+                function scrollFunction(){
+                    if(  document.documentElement.scrollTop> 500)
+                    {
+                        document.getElementById("head").style.display="block";
+                    }
+                    else {
+                        document.getElementById("head").style.display="none";
+                    }
+                }
+            </script>
+  
+
+                   
+
+                   
+                   
+                   
+
+                   
+                   
+                    <section class="nextpage1" onclick="closeLetter()">
+                       
+
+
+</section>
+            <section class="nextpage" onclick="closeLetter()">
+                <div id="traits" style="position: absolute; color: aliceblue; font-size: 20vh; left:15vh; top:15vh; " >
+                          Essential Traits
+        
+   </div>
+                      
+                <div id="fade1">
+                   <img id="left2" onclick="leftControlBy2(); showImg()" src="critical-thinking-concept-illustration_114360-7942.webp" >
+                  
+                    <img id="right2" onclick="rightControlBy2(); showImg()" src="Artificial-Intelligence-AI-Square.jpg">
+                    <img id="left1" onclick="leftControlBy1(++n); showImg()" src="360_F_314829742_9J8iuJIH1vuz6Fa7RVb9xokmLGRGreMr.jpg" >
+                    <img id="right1" onclick="rightControlBy1(); showImg()" src="360_F_213052190_oNPjsRshKQ39MLPQOV3gq1JSAq5p3B6h.jpg" >
+
+                    <img id="mid" src="Modes-of-Communication.png" style="position: relative; left:50vh; top:-55vh;height: 50vh; border-radius: 0vh; padding: 0px; background-color: rgb(255, 0, 0);  box-shadow: 0 0 30px #ff0000; ">
+  
+  
+                    
+                 
+                </div>
+                <div style="display: none;">
+                    <div class="faded">critical-thinking-concept-illustration_114360-7942.webp</div>
+                    <div class="faded">360_F_314829742_9J8iuJIH1vuz6Fa7RVb9xokmLGRGreMr.jpg</div> 
+                    <div class="faded">Modes-of-Communication.png</div>
+                    <div class="faded">360_F_213052190_oNPjsRshKQ39MLPQOV3gq1JSAq5p3B6h.jpg</div>
+                    <div class="faded">Artificial-Intelligence-AI-Square.jpg</div>
+                    <div class="faded">9b541a56adb675105dc4e79e6babbc1a-motivation-square-icon.png</div> 
+                    <div class="faded">square_root_wall_clock_white_black-rb8e2a9c577514eaeab2ab3b23f69fd25_s0ysb_8byvr_307.jpg</div>
+                    
+                    <img src="critical-thinking-concept-illustration_114360-7942.webp">
+                    <img src="360_F_314829742_9J8iuJIH1vuz6Fa7RVb9xokmLGRGreMr.jpg">
+                    <img src="360_F_213052190_oNPjsRshKQ39MLPQOV3gq1JSAq5p3B6h.jpg">
+                    <img src="Modes-of-Communication.png">
+                    <img src="Artificial-Intelligence-AI-Square.jpg">
+                    <img src="9b541a56adb675105dc4e79e6babbc1a-motivation-square-icon.png">
+                    <img src="square_root_wall_clock_white_black-rb8e2a9c577514eaeab2ab3b23f69fd25_s0ysb_8byvr_307.jpg">
+                    <img src="images123.jpg">
+
+                    <img src="aiims_650x400_51439114354.webp">
+                    <img src="iisc-1.webp">
+                    <img src="iitb.webp">
+                    <img src="iitd.webp">
+                    <img src="iist.webp">
+                    <img src="iitk.jpeg">
+                </div>
+           <script>
+
+
+
+
+            var values = new Array(7);
+            var des= new Array(7);
+ for (let b=0; b<7; b++ )
+ {  var element = document.getElementsByClassName("faded");
+   
+    values[b]= element[b].textContent;
+ 
+ }
+
+ for (let l=0; l<7; l++)
+ {
+
+ }
+
+
+
+
+ var f= new Array(7);
+
+ var c = new Array(7);
+
+var n;
+
+function leftControlBy1(n){
+    for(var i=0; i< 7 ; i++)
+    {
+        if (i==6)
+        {
+           c[0]=values[6];
+           f[0]=des[6];
+        }
+
+        else {
+          c[i+1]=values[i];
+          f[i+1]=des[i];
+
+        }
+    }
+
+   
+
+}
+
+
+function leftControlBy2(){
+    for(var i=0; i< 7 ; i++)
+    {
+        if (i==6 || i==5)
+        {  c[0]=values[5];
+           c[1]=values[6];
+           f[1]=des[6];
+           f[0]=des[5];
+
+        }
+
+        else {
+          c[i+2]=values[i];
+          f[i+2]=des[i];
+
+        }
+    }
+
+}
+
+
+function rightControlBy2(){
+    for(var i=0; i<7  ; i++)
+    {
+        if (i==0 || i==1)
+        {  c[6]=values[1];
+           c[5]=values[0];
+           f[6]=des[1];
+           f[5]=des[0];
+        }
+
+        else {
+          c[i-2]=values[i];
+          f[i-2]=des[i];
+
+        }
+    }
+
+}
+
+
+function rightControlBy1(){
+    for(var i=0; i< 7 ; i++)
+    {
+        if (i==0 )
+        {  c[6]=values[0];
+            f[6]=des[0];
+           
+        }
+
+        else {
+          c[i-1]=values[i];
+          f[i-1]=des[i];
+
+        }
+    }
+}
+
+
+
+function showImg(){
+    mid = document.getElementById("mid");
+
+    left1 =document.getElementById("left1");
+
+        left2=    document.getElementById("left2");
+
+        right1 =document.getElementById("right1");
+        
+        right2 = document.getElementById("right2");
+
+    
+
+
+        mid.setAttribute("src",c[2]);
+        left1.setAttribute("src", c[1]);
+        left2.setAttribute("src", c[0]);
+        right1.setAttribute("src", c[3]);
+        right2.setAttribute("src", c[4]);
+    
+
+        for (var m=0; m<7; m++)
+        {
+            values[m]=c[m];
+            des[m]=f[m];
+        }
+
+}
+
+
+           </script>
+                
+                    </section>
+            
+        
+        
+
+                    
+          
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+       
+
+
+
+
+
+
+
+
+
+
+<div class="girls">
+
+                    <img class="beauty-back" src="i12.jpg">
+                    <img class="beauty-front" src="i11.jpg">
+                 </div>   
+
+<section class="beauty">
+  
+   
+    <div class="beauty-text">
+    <span style="position: relative; left:30px; color:bisque; font-size: 8vh;top:35vh;">    Graduation is important..</span>
+<ul>
+    <span style="position: relative; left:30px; color:rgb(255, 255, 255); font-size: 4vh;top:40vh;">
+      <li>  You can earn more on average than those with only a high school diploma. </li><br />
+         <li>
+        You can increase your chances of employment in today’s competitive job market.</li><br />
+       
+       <li>  You can gain new skills and knowledge that can help you in your chosen career field.</li>
+    </span>
+    </ul>
+    </div>
+</section>
+<div id="slideimgs">
+
+<img src="iisc-1.webp" class="imagesofslide">
+    <img src="aiims_650x400_51439114354.webp" class="imagesofslide">
+  
+    <img src="iitb.webp" class="imagesofslide">
+    <img src="iitd.webp" class="imagesofslide">
+    <img src="iist.webp" class="imagesofslide">
+    <img src="iitk.jpeg"class="imagesofslide">
+</div>
+<section class="slideshow">
+   
+   
+    
+   
+    <div class="slidetext"> 
+
+        <table>
+            <tbody><tr><td><strong>Institute Name</strong></td><td>Indian Institute of Science, Bangalore</td></tr><tr><td><strong>Also Known As</strong></td><td>IISc Bangalore</td></tr><tr><td><strong>Institute Type</strong></td><td>Government</td></tr><tr><td><strong>Established</strong></td><td>1909</td></tr><tr><td><strong>Location</strong></td><td>Bangalore, Karnataka</td></tr></tbody>
+        </table>
+    </div>
+
+    <div class="slidetext">
+        <table> <tbody><tr><td><strong>Institute Name:</strong></td>&nbsp;&nbsp;
+            <td>All India Institute of Medical Sciences (AIIMS) Delhi</td>
+        </tr><tr><td><strong>Also Known As:</strong></td>
+            <td>AIIMS Delhi</td></tr><tr><td><strong>Institute Type:</strong></td>
+                <td>Government</td></tr>
+                <tr><td><strong>Established:</strong></td><td>1956</td></tr>
+                <tr><td><strong>Location:</strong></td>
+                    <td>Delhi</td></tr>
+                </tbody></table>
+        
+       </div>
+
+
+
+       <div class="slidetext">
+        <table><tbody><tr><td><strong>Institute Name</strong></td><td>Indian Institute of Technology, Bombay</td></tr><tr><td><strong>Also Known As</strong></td><td>IITB</td></tr><tr><td><strong>Institute Type</strong></td><td>Government</td></tr><tr><td><strong>Established</strong></td><td>1958</td></tr><tr><td><strong>Location</strong></td><td>Mumbai, Maharashtra</td></tr></tbody></table>
+    </div>
+
+
+    <div class="slidetext">
+        <table><tbody><tr><td><strong>Institute Name</strong></td><td>Indian Institute of Technology, Delhi</td></tr><tr><td><strong>Also Known As</strong></td><td>IITD</td></tr><tr><td><strong>Institute Type</strong></td><td>Government</td></tr><tr><td><strong>Established</strong></td><td>1961</td></tr><tr><td><strong>Location</strong></td><td>New Delhi, Delhi</td></tr></tbody></table>    </div>
+  
+
+
+   
+    <div class="slidetext">
+       <table> <tbody><tr><td><strong>Institute Name:</strong></td>&nbsp;&nbsp;
+            <td>Indian Institute of Space Science and Technology</td>
+        </tr><tr><td><strong>Also Known As:</strong></td>
+            <td>IIST Thiruvananthapuram</td></tr><tr><td><strong>Institute Type:</strong></td>
+                <td>Government</td></tr>
+                <tr><td><strong>Established:</strong></td><td>2007</td></tr>
+                <tr><td><strong>Location:</strong></td>
+                    <td>Thiruvananthapuram, Kerala</td></tr>
+                </tbody></table>
+    </div>
+   
+
+  
+   <div class="slidetext">
+    <table><tbody><tr><td><strong>Institute Name</strong></td><td>Indian Institute of Technology, Kanpur</td></tr><tr><td><strong>Also Known As</strong></td><td>IITK</td></tr><tr><td><strong>Institute Type</strong></td><td>Government</td></tr><tr><td><strong>Established</strong></td><td>1960</td></tr><tr><td><strong>Location</strong></td><td>Kanpur, Uttar Pradesh</td></tr></tbody></table>
+
+   </div>
+   
+  
+   
+   
+   
+   
+   
+   
+   <script>
+        var z;
+var k=0;
+
+slideShow();
+
+function slideShow()
+{
+if(k==5){
+    k=0;
+}
+
+for( var i=0; i<6;i++)
+{
+    z= document.getElementsByClassName("imagesofslide");
+    b=document.getElementsByClassName("slidetext");
+    z[i].style.display="none";
+    b[i].style.display="none";
+}
+
+console.log(k)
+z[k].style.display="block";
+b[k].style.display="block"
+k++;
+
+
+setTimeout(slideShow, 5000);
+
+}
+
+    </script>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="fluorine">
+   
+        <div class="social">
+            <img src="download.jpeg" class="ico"> <a href="www.instagram.com" style="position: relative ; top:-2.5vh; left:1vh; text-decoration: none; color: white;" onmouseover="this.style.textDecoration='underline'; this.style.color='red';" onmouseout="this.style.textDecoration='none';this.style.color='white';">Instagram</a> <br /><br />
+            <img src="download (1).png" class="ico">  <a href="www.instagram.com" style="position: relative ; top:-2.5vh; left:1vh; text-decoration: none; color: white;" onmouseover="this.style.textDecoration='underline'; this.style.color='red';" onmouseout="this.style.textDecoration='none';this.style.color='white';">Facebook</a><br /><br />
+            <img src="twitter.png" class="ico"> <a href="www.instagram.com" style="position: relative ; top:-2.5vh; left:1vh; text-decoration: none; color: white;" onmouseover="this.style.textDecoration='underline'; this.style.color='red';" onmouseout="this.style.textDecoration='none';this.style.color='white';">Twitter</a><br /><br />
+            <img src="whatas.jpeg" class="ico"> <a href="www.instagram.com" style="position: relative ; top:-2.5vh; left:1vh; text-decoration: none; color: white;" onmouseover="this.style.textDecoration='underline'; this.style.color='red';" onmouseout="this.style.textDecoration='none';this.style.color='white';">Whatsapp</a><br /><br />
+        </div>
+        <div class="telephone">
+            <span style="font-size: 10vh;">Contact Us</span><br /><br /><br /><br /><br />
+           <img src="call.png" class="icon">
+            <a href="tel:+91-85552-85552" style="position: relative ; top:-2.5vh ; left:1vh; text-decoration: none; color: white;" onmouseover="this.style.textDecoration='underline'; this.style.color='red';" onmouseout="this.style.textDecoration='none';this.style.color='white';">Call us at (+91-85552-85552)</a> <br /><br />
+            <img src="mailone.png" class="icon1">
+            <a href="mailto:stempvtltd@stem.co.in" style="position: relative ; top:-2.5vh; left:1vh; text-decoration: none; color: white;" onmouseover="this.style.textDecoration='underline'; this.style.color='red';" onmouseout="this.style.textDecoration='none';this.style.color='white';">Mail us at stempvtltd@stem.co.in</a>
+        </div>
+
+        <div class="form"><br />
+            <div style="color:white; font-size: 20px;">Comments</div>
+            <br /> 
+<input type="text" id="none1" placeholder="First Name" style="height:30px; width:30vh ; padding-left: 10px;"><br /> <br />
+
+<input type="text" id="none2" placeholder="Email" style="height:30px;  width:30vh ; padding-left: 10px;"> <br /> <br />
+
+<input type="text" id="none3" placeholder="Message" style="overflow-y:scroll; overflow-y: hidden; height:13vh ;  width:30vh; padding-left: 10px;"  ><br /><br />
+<button id="comment" onclick="none()" style="background-color: green; color: aliceblue; ">Send</button>
+        </div>
+    </section>
+    
+    <div id="head"></div>
+
+    <div class="header" >
+        
+    
+      
+        
+        
+        <div id="menu">
+            
+    
+            <div id="front">
+           
+                <div class="home" ><a href="nit.html">
+                    <span id="home" onclick="closeAll()">
+                   Home 
+               
+                </span></a>
+           </div>
+            <div class="Navigator"  >
+                <span id="nav" onclick="showNav(++n)">
+             Nav-bar
+                </span>
+            <div id="navbar" >
+                
+                <a href="mainpage.html#iitkban">  <button class="part1"  >IIT Kanpur</button></a>
+                <a href="mainpage.html#iitdban">   <button  class="part1">IIT Delhi</button></a>
+                  
+                 <a href="mainpage.html#iitbban"> <button class="part1">IIT Bombay</button></a>
+                 <a href="mainpage.html#iistban"> <button class="part1">IIST Thiruvananthapuram</button></a>
+                 <a href="mainpage.html#iiscban"> <button class="part1">IISC Banglore</button></a>
+            
+            </div></div>
+            
+          
+    
+    
+        
+    
+          
+    
+            <div class="contact">
+            <span id="contact" onclick="showContact(++c)">
+               Help
+            </span>
+           <div id="contactbar">
+           <a href="#fluorine"> <button class="part5">Contact us</button></a>
+            <a href="#fluorine">  <button class="part5">Mail us</button></a>
+                <a href="#fluorine"> <button class="part5">Call us</button></a>
+           
+            
+           </div>
+            </div>
+                </div>
+           
+           
+           
+                <div id="back">
+    
+                    <img src="pngtree-vector-mail-icon-png-image_995083.jpg" id="mail" onclick="showLetterBox(++n); showback(++f);">
+                   
+            <button id="log" onclick="showBar(++b)"  >Log in / Sign up</button>
+            
+    
+            <img src="user-profile-icon-free-vector.jpg" id="profile">
+           
+         
+         
+            <div id="logpage">
+               
+              
+               
+                <div id="bar">
+                    <div class="logbar">
+               
+                  <button class="login" onclick="showLog(++li)">
+                     LOG IN
+                 </button>   
+                </div>
+               
+              
+               
+                 <div class="signbar">
+                     <button class="login" onclick="showSign(++si)">SIGN UP</button>
+              
+                 </div>
+                 
+                 
+                 <br />
+                
+             </div>
+                <div id="continue" style="text-align: center; padding-top: 30px; color: black;">
+                    Get access to all our content...<br />
+                    Log in or create a new account to continue!!
+    
+                    <button onclick="showLog(++li)" style="color:white; background-color: rgb(240, 53, 53); margin-right: 20px; margin-top: 20px; height:30px; border: none;">Log in</button>
+                    <button onclick="showSign(++si)" style="color:white; background-color: rgb(70, 60, 206);margin: 0px; height:30px; margin-top: 20px; border: none;">Sign up</button>
+                </div>
+    
+                
+                 <div id="loginfo" >
+    
+                    <div class="section">
+                        <br /><br /><br /><br />
+                       <span style="font-size: 60px;">Login</span> 
+                        <br />
+                        <br /><br /><br /><br /><br />
+                      <span class="or" onclick="showSign(++si)">  or create new account
+                    </span>
+    
+                    </div>
+                    <div class="content">
+                        <br /><br />
+                 <br /><input type="text" class="lname"  name="Username" placeholder="Username" required autofocus autocomplete="off">   <span class="userinput"     >Username: </span>
+                   
+                  
+                  <br /><br /><br />
+                   
+                   
+                    <br /><input type="text" class="fname" name="password" placeholder="Password" required  autocomplete="off"> <span class="passinput">Password:</span>
+                   <br />
+               
+                   <br />
+                   <span >  <input type="submit" name="ssubmit" placeholder="Submit" class="submit" onclick="profile()">
+                   
+                </span>
+                 </div>
+                </div>
+            
+                 <div id="signinfo">
+    
+                    <div class="section">
+                        <br /><br /><br /><br />
+                       <span style="font-size: 50px;">Sign up</span> 
+                        <br />
+                        <br /><br /><br /><br /><br />
+                      <span class="or" onclick="showLog(++li)">  or Log in now
+                    </span>
+    
+                    </div>
+            
+                    <div class="content"><br />
+                     <span style="padding-bottom: 20px; margin-bottom: 20px;">First Name:   <br /> <input type="text" class="name" placeholder="First Name" name="fname" ></span>
+                     <br /> <br />
+                     <span >Last Name:   <br /> <input type="text" class="name" placeholder="Last Name" name="lname"></span>
+                     <br /> <br />
+                     <span >Choose your Password:   <br /><input type="password" class="name" placeholder="Password" name="spassword"></span>
+                     <br />
+                    
+                     
+            <span>
+                <br />
+                
+               
+    
+                <input type="submit" name="ssubmit" placeholder="Submit" class="submit" onclick="profile()">
+                    
+                    </span>
+            
+                 </div>
+                 </div>
+                 <img src="cross-23.png" id="cross" onclick="cross()">
+                </div>
+                </div>
+                
+            </div>
+            </div>
+          
+            
+    
+    
+    
+    
+    
+    
+    
+    
+            <section>
+    
+    
+    
+    
+    <section id="mlb" style="position:fixed; height: 100vh; width: 200vh; background-color: black; display: none; opacity: 75%; pointer-events: none;top: 0; bottom:0; right: 0; left:0;" >
+    <div class="box1"></div>
+    </section>
+    
+    <div id="textletter" >
+       
+        <div class="backletter">
+          
+        </div>
+        <div class="leftbox">
+    
+        </div>
+        <div class="rightbox">
+    
+        </div>
+    
+    
+    
+            <div class="letter unfold">
+                <div class="text">
+                  <h1 style="display: flex; flex-direction: column;  font-size: 25px; margin-top: 22px; color: black;">
+                    Subscribe to our newsletter
+                  <br />
+                 <span style="font-style: italic; font-size: 16px; color:black"> 
+                  
+                  (never miss any post by subscribing)
+                  </span>
+            
+                </h1>
+                  
+                
+            
+                  <input type="text"  class="input" autocomplete="off"  required autofocus>
+                  <span  class="float"> Type your email here:</span>
+                  
+                   <input class="sub" type="submit" onclick="closeLetter()"> 
+                  </div>
+                </div>
+               
+                <div class="letter left">
+            
+                </div>
+                <div class="letter right">
+            
+                </div>
+                <div class="letter bottom">
+            
+                </div>
+                <div class="letter top" onclick="showLetter()">
+                    
+                </div>
+            
+                
+                <div class="letter body">
+            
+                </div>
+           
+    
+    </div>
+    
+    
+    
+    
+    </section>
+    
+
+    </main>
+
+    
+       
+    </body>
+
+    </html>
+s

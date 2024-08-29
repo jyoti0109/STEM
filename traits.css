@@ -1,0 +1,67 @@
+
+#left2 {
+    position: relative; left:10vh; top:-5vh;height: 23vh; border-radius: 0vh; padding: 0px; background-color: rgb(255, 255, 255); opacity: 45%;
+    box-shadow: 0 0 15px #fff;
+}
+
+#right2 {
+    box-shadow: 0 0 15px #fff;
+    position: relative; left:90vh; top:-5vh;height: 23vh; border-radius: 0vh; padding: 0px; background-color: rgb(255, 255, 255); opacity: 45%;
+}
+
+#right1 {
+    box-shadow: 0 0 15px #fff;
+    position: relative; right:-5vh; top:-5vh;height: 33vh; border-radius: 0vh; padding: 0px; 
+    opacity: 75%;
+    background-color: black;
+}
+
+#left1{
+    box-shadow: 0 0 15px #fff;
+    position: relative; right:20vh; top:-5vh;height: 33vh; border-radius:0vh; padding: 0px; background-color: rgb(255, 255, 255);
+    opacity: 70%;
+}
+
+
+#left2:hover {
+    transform: scale(1.2);
+
+    opacity: 65%;
+}
+
+
+
+
+#left1:hover {
+    transform: scale(1.2);
+
+    opacity: 95%;
+}
+
+
+
+
+#right1:hover {
+    transform: scale(1.2);
+  
+    opacity: 95%;
+}
+
+
+
+
+#right2:hover {
+    transform: scale(1.2);
+   
+    opacity: 65%;
+}
+
+
+
+
+
+#mid:hover {
+    transform: scale(1.08);
+}
+
+
